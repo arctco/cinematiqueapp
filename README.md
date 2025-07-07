@@ -71,8 +71,8 @@ Want to get the most out of cinematique? Check out our [Tips & Tricks](#) guide 
 
 cinematique is and will remain free. If you enjoy using it, consider donating to help cover hosting and API costs:
 
-👉 [Buy Me a Coffee]([https://www.buymeacoffee.com/yourname]([https://buymeacoffee.com/cinematique])
-👉 [Ko-fi]([https://www.buymeacoffee.com/yourname]([https://ko-fi.com/cinematique])
+👉 [Buy Me a Coffee]([https://buymeacoffee.com/cinematique])
+👉 [Ko-fi]([https://ko-fi.com/cinematique])
 
 ---
 
@@ -80,7 +80,7 @@ cinematique is and will remain free. If you enjoy using it, consider donating to
 
 Have a feature request, bug report, or just want to say hi? Contact me at:
 
-📧 ([https://discord.gg/ywMAE7p7tE])
+📧 [Join our Discord] ([https://discord.gg/ywMAE7p7tE])
 
 ---
 
