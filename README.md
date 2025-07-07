@@ -80,7 +80,7 @@ cinematique is and will remain free. If you enjoy using it, consider donating to
 
 Have a feature request, bug report, or just want to say hi? Contact me at:
 
-📧 [your-email@example.com](mailto:your-email@example.com)
+📧 ([https://discord.gg/ywMAE7p7tE])
 
 ---
 
