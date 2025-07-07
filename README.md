@@ -55,7 +55,7 @@ Core tracking features are completely free. You get 5 free AI interactions to tr
 
 ## 📲 How to Use
 
-1. Download the latest `.apk` release from the [Releases](https://github.com/yourusername/cinematique/releases) page.
+1. Download the latest `.apk` release from the [Releases](https://github.com/arctco/cinematique/releases) page.
 2. Install it on your Android device.
 3. Start tracking your film and TV journey, privately.
 
