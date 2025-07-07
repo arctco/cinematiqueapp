@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         myWebView.webViewClient = WebViewClient()
 
         // Load your website URL
-        myWebView.loadUrl("https://cinematique-937561832045.us-west1.run.app/") // !!! REPLACE WITH YOUR ACTUAL WEBSITE URL !!!
+        myWebView.loadUrl("https://cinematique.me/") // !!! REPLACE WITH YOUR ACTUAL WEBSITE URL !!!
 
         val onBackPressedCallback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
