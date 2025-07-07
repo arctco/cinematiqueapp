@@ -1,7 +1,6 @@
 # cinematique
 ![Version](https://img.shields.io/badge/version-0.1-blue.svg)
 ![Privacy Respecting](https://img.shields.io/badge/privacy-100%25%20local-success)
-![License](https://img.shields.io/badge/license-Unlicensed-lightgrey.svg)
 ![Status](https://img.shields.io/badge/status-beta-orange.svg)
 
 
