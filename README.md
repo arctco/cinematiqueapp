@@ -71,8 +71,8 @@ Want to get the most out of cinematique? Check out our [Tips & Tricks](#) guide 
 
 cinematique is and will remain free. If you enjoy using it, consider donating to help cover hosting and API costs:
 
-👉 [Buy Me a Coffee]([https://buymeacoffee.com/cinematique])
-👉 [Ko-fi]([https://ko-fi.com/cinematique])
+👉 [Buy Me a Coffee] ([https://buymeacoffee.com/cinematique])
+👉 [Ko-fi] ([https://ko-fi.com/cinematique])
 
 ---
 
