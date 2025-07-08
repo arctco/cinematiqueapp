@@ -65,7 +65,7 @@ Core tracking features are completely free. You get 5 free AI interactions to tr
 
 ## 🧠 Tips & Tricks
 
-Want to get the most out of cinematique? Check out our [Tips & Tricks](#) guide for power users.
+Want to get the most out of cinematique? Check out our [Tips & Tricks](https://cinematique.me) guide for power users.
 
 ---
 
@@ -94,4 +94,4 @@ cinematique is a tracking tool. It does not stream or host any media content. Al
 
 ## 📜 Terms of Use
 
-By using this website/app, you agree to the terms outlined [here](#). Your continued use implies acceptance of any future updates to these terms.
+By using this website/app, you agree to the terms outlined [here](https://cinematique.me). Your continued use implies acceptance of any future updates to these terms.
