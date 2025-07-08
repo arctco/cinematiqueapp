@@ -1,4 +1,6 @@
-# [cinematique](https://cinematique.me)
+[![cinematique preview](https://media.discordapp.net/attachments/647884127386992665/1392129905680187563/6_-_Copy.png?ex=686e6982&is=686d1802&hm=0e3e68edb5aca608c0da23617bcfa5b228dcad599322ecfdc72fadcfbd30da73&=&format=webp&quality=lossless&width=965&height=163)](https://cinematique.me)
+
+
 ![Version](https://img.shields.io/badge/version-0.1-blue.svg)
 ![Privacy Respecting](https://img.shields.io/badge/privacy-100%25%20local-success)
 ![Status](https://img.shields.io/badge/status-beta-orange.svg)
