@@ -1,4 +1,6 @@
-# [cinematique](https://cinematique.me)
+[![cinematique preview](https://media.discordapp.net/attachments/647884127386992665/1392129905680187563/6_-_Copy.png?ex=686e6982&is=686d1802&hm=0e3e68edb5aca608c0da23617bcfa5b228dcad599322ecfdc72fadcfbd30da73&=&format=webp&quality=lossless&width=965&height=163)](https://cinematique.me)
+
+
 ![Version](https://img.shields.io/badge/version-0.1-blue.svg)
 ![Privacy Respecting](https://img.shields.io/badge/privacy-100%25%20local-success)
 ![Status](https://img.shields.io/badge/status-beta-orange.svg)
@@ -8,7 +10,7 @@
 
 cinematique is a local-first, privacy-focused app designed to help you track the movies and TV shows you love. Built with care, powered by community data and optional AI, cinematique is smart, sleek, and fully under your control.
 
-> **Note:** This repository is for the **WebView Android app** only. It does **not** contain the source code for the cinematique website.
+> **Note:** This repository is for the **WebView Android app** only. It does **not** contain the source code for the cinematique website. But you can access it clicking [here](https://cinematique.me)!
 
 ---
 
@@ -55,7 +57,7 @@ Core tracking features are completely free. You get 5 free AI interactions to tr
 
 ## 📲 How to Use
 
-1. Download the latest `.apk` release from the [Releases](https://github.com/yourusername/cinematique/releases) page.
+1. Download the latest `.apk` release from the [Releases](https://github.com/arctco/cinematiqueapp/releases) page.
 2. Install it on your Android device.
 3. Start tracking your film and TV journey, privately.
 
@@ -63,7 +65,7 @@ Core tracking features are completely free. You get 5 free AI interactions to tr
 
 ## 🧠 Tips & Tricks
 
-Want to get the most out of cinematique? Check out our [Tips & Tricks](#) guide for power users.
+Want to get the most out of cinematique? Check out our [Tips & Tricks](https://cinematique.me) guide for power users.
 
 ---
 
@@ -92,4 +94,4 @@ cinematique is a tracking tool. It does not stream or host any media content. Al
 
 ## 📜 Terms of Use
 
-By using this website/app, you agree to the terms outlined [here](#). Your continued use implies acceptance of any future updates to these terms.
+By using this website/app, you agree to the terms outlined [here](https://cinematique.me). Your continued use implies acceptance of any future updates to these terms.
