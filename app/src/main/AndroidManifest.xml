@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Standard Internet permission -->
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permissions for reading and writing to external storage (for older Android versions, or specific media files) -->
+    <!-- For targetSdk 30+, these primarily grant access to media collections and app-specific directories. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" /> <!-- Deprecated for broad access from API 33+ -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" /> <!-- Deprecated for broad access from API 30+ -->
+
+    <!-- For Android 11 (API 30) and above, if your app needs broad access to all files on external storage,
+         you must request the MANAGE_EXTERNAL_STORAGE permission. This is for "All files access".
+         Note: This permission requires a special review process for Play Store submission. -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <!-- Required for apps targeting API 30+ to query information about other apps
+         (e.g., for file managers or sharing intents). -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,7 +31,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:usesCleartextTraffic="true"
         android:supportsRtl="true"
-        android:theme="@style/Theme.App.Starting">
+        android:theme="@style/Theme.App.Starting"
+        tools:targetApi="31"> <!-- Use tools:targetApi to suppress warnings if needed for older permissions -->
+
+        <!-- If targeting API 30 and need legacy external storage access for older devices/APIs,
+             you might add this, but it's generally not recommended for new apps. -->
+        <!-- android:requestLegacyExternalStorage="true" -->
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -19,7 +45,6 @@
             android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
