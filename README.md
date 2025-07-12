@@ -94,4 +94,4 @@ cinematique is a tracking tool. It does not stream or host any media content. Al
 
 ## 📜 Terms of Use
 
-By using this website/app, you agree to the terms outlined [here](https://cinematique.me). Your continued use implies acceptance of any future updates to these terms.
+By using this website/app, you agree to the terms outlined [here](https://github.com/arctco/cinematiqueapp/blob/master/TERMS.md). Your continued use implies acceptance of any future updates to these terms.
