@@ -11,8 +11,8 @@ android {
         applicationId = "com.arctco.cinematique" // Kotlin DSL uses '=' for assignments
         minSdk = 21 // Kotlin DSL uses '=' for assignments
         targetSdk = 34 // Kotlin DSL uses '=' for assignments
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 3
+        versionName = "0.1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -122,29 +122,12 @@ class MainActivity : AppCompatActivity() {
                 // You could potentially inject JavaScript here if needed after page load
             }
 
-            // Important for handling redirects in OAuth flows
+            // IMPORTANT CHANGE: Removed the broad external browser redirection for Google URLs here.
+            // This allows onCreateWindow to handle them as pop-ups.
             override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
                 val url = request?.url.toString()
                 Log.d(TAG, "Main WebView loading URL: $url")
 
-                // Broadly intercept Google authentication/API URLs and open in external browser
-                if (url.startsWith("https://accounts.google.com/") ||
-                    url.startsWith("https://oauth2.googleapis.com/") ||
-                    url.startsWith("https://myaccount.google.com/") ||
-                    url.startsWith("https://www.google.com/accounts/") ||
-                    url.startsWith("https://www.googleapis.com/") || // Catch general Google API calls
-                    url.startsWith("https://gsi.gstatic.com/")) { // Catch GSI client library loading
-
-                    try {
-                        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
-                        startActivity(browserIntent)
-                        Log.d(TAG, "Opened Google-related URL in external browser: $url")
-                        return true // Indicate that we handled the URL
-                    } catch (e: ActivityNotFoundException) {
-                        Log.e(TAG, "No browser found to handle Google-related URL: $url", e)
-                        Toast.makeText(applicationContext, "Cannot open external browser for Google service.", Toast.LENGTH_LONG).show()
-                    }
-                }
                 // If it's a deep link or custom scheme, handle it externally if needed
                 // Example: if (url.startsWith("yourappscheme://")) { /* handle intent */ return true }
 
@@ -227,24 +210,18 @@ class MainActivity : AppCompatActivity() {
                     override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
                         val url = request.url.toString()
                         Log.d(TAG, "Pop-up WebView loading URL: $url")
-                        // You might need to customize this part based on the exact Google Drive OAuth flow.
-                        // If the URL is a redirect back to your app or a success/close URL, handle it.
-                        if (url.startsWith("https://cinematique.me/auth/google/callback") || url.contains("success=true")) { // Example redirect URL
-                            // Load the URL in the main WebView or handle the token/data
-                            this@MainActivity.myWebView.loadUrl(url)
-                            dialog.dismiss()
-                            return true
+
+                        // IMPORTANT CHANGE: Handle the redirect back to your main app/website
+                        // This assumes your web app redirects back to cinematique.me after successful Google Auth
+                        if (url.startsWith("https://cinematique.me")) { // Or a more specific redirect URL from your web app
+                            this@MainActivity.myWebView.loadUrl(url) // Load the final URL in the main WebView
+                            dialog.dismiss() // Dismiss the pop-up dialog
+                            Log.d(TAG, "OAuth flow completed, redirecting to main WebView: $url")
+                            return true // Indicate that we handled the URL
                         }
-                        // Broadly intercept Google authentication/API URLs and allow them to load in the pop-up WebView
-                        if (url.startsWith("https://accounts.google.com/") ||
-                            url.startsWith("https://oauth2.googleapis.com/") ||
-                            url.startsWith("https://myaccount.google.com/") ||
-                            url.startsWith("https://www.google.com/accounts/") ||
-                            url.startsWith("https://www.googleapis.com/") ||
-                            url.startsWith("https://gsi.gstatic.com/")) {
-                            return false // Let WebView handle these URLs internally within the pop-up
-                        }
-                        return super.shouldOverrideUrlLoading(view, request)
+
+                        // Allow all other URLs to load within this pop-up WebView
+                        return false
                     }
 
                     override fun onPageFinished(view: WebView?, url: String?) {
