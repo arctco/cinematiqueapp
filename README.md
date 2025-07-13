@@ -1,7 +1,7 @@
-[![cinematique preview](https://media.discordapp.net/attachments/647884127386992665/1392129905680187563/6_-_Copy.png?ex=686e6982&is=686d1802&hm=0e3e68edb5aca608c0da23617bcfa5b228dcad599322ecfdc72fadcfbd30da73&=&format=webp&quality=lossless&width=965&height=163)](https://cinematique.me)
+[![cinematique preview](https://media.discordapp.net/attachments/647884127386992665/1392620077702189207/fgfg.png?ex=68703204&is=686ee084&hm=dddc108355eec9797b8d36549d1ce9f6e55d488e9830c38f7a72e9419b11e88a&=&format=webp&quality=lossless&width=1249&height=210)](https://cinematique.me)
 
 
-![Version](https://img.shields.io/badge/version-0.1-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
 ![Privacy Respecting](https://img.shields.io/badge/privacy-100%25%20local-success)
 ![Status](https://img.shields.io/badge/status-beta-orange.svg)
 
@@ -94,4 +94,4 @@ cinematique is a tracking tool. It does not stream or host any media content. Al
 
 ## 📜 Terms of Use
 
-By using this website/app, you agree to the terms outlined [here](https://cinematique.me). Your continued use implies acceptance of any future updates to these terms.
+By using this website/app, you agree to the terms outlined [here](https://github.com/arctco/cinematiqueapp/blob/master/TERMS.md). Your continued use implies acceptance of any future updates to these terms.
