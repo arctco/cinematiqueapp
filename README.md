@@ -48,6 +48,8 @@ cinematique was built with privacy as a top priority:
 
 * **TMDB**: Optional sync for your public TMDB watchlist. Custom lists and episode progress remain local.
 * **Google Gemini**: Optional AI tools send only non-personal data to Gemini. You can provide your own Gemini API key, stored locally, for unlimited use.
+* **Trakt.tv**: Displays community ratings from Trakt.tv anonymously to enhance content discovery.
+* **Google Drive**: Includes an optional Google Drive integration to let users back up and restore their local data.
 
 ---
 
