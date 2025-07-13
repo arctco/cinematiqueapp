@@ -31,6 +31,8 @@ cinematique was born from a simple idea: to create a beautiful, modern, and inte
 * **React**: Modern frontend built with the latest React features.
 * **The Movie Database (TMDB)**: Community-driven source of film and TV metadata.
 * **Google Gemini API**: Optional AI features like summaries, chat, and recommendations.
+* **Trakt.tv**: Displays community ratings from Trakt.tv anonymously to enhance content discovery.
+* **Google Drive**: Includes an optional Google Drive integration to let users back up and restore their local data.
 
 ---
 
