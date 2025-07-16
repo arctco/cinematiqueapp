@@ -1,7 +1,7 @@
 [![cinematique preview](https://media.discordapp.net/attachments/647884127386992665/1392620077702189207/fgfg.png?ex=68703204&is=686ee084&hm=dddc108355eec9797b8d36549d1ce9f6e55d488e9830c38f7a72e9419b11e88a&=&format=webp&quality=lossless&width=1249&height=210)](https://cinematique.me)
 
 
-![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.2-blue.svg)
 ![Privacy Respecting](https://img.shields.io/badge/privacy-100%25%20local-success)
 ![Status](https://img.shields.io/badge/status-beta-orange.svg)
 
@@ -31,6 +31,8 @@ cinematique was born from a simple idea: to create a beautiful, modern, and inte
 * **React**: Modern frontend built with the latest React features.
 * **The Movie Database (TMDB)**: Community-driven source of film and TV metadata.
 * **Google Gemini API**: Optional AI features like summaries, chat, and recommendations.
+* **Trakt.tv**: Displays community ratings from Trakt.tv anonymously to enhance content discovery.
+* **Google Drive**: Includes an optional Google Drive integration to let users back up and restore their local data.
 
 ---
 
@@ -46,6 +48,8 @@ cinematique was built with privacy as a top priority:
 
 * **TMDB**: Optional sync for your public TMDB watchlist. Custom lists and episode progress remain local.
 * **Google Gemini**: Optional AI tools send only non-personal data to Gemini. You can provide your own Gemini API key, stored locally, for unlimited use.
+* **Trakt.tv**: Displays community ratings from Trakt.tv anonymously to enhance content discovery.
+* **Google Drive**: Includes an optional Google Drive integration to let users back up and restore their local data.
 
 ---
 
