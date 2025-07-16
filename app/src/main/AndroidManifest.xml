@@ -31,7 +31,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:usesCleartextTraffic="true"
         android:supportsRtl="true"
-        android:theme="@style/Theme.App.Starting"
+        android:theme="@style/Theme.Cinematique"
         tools:targetApi="31"> <!-- Use tools:targetApi to suppress warnings if needed for older permissions -->
 
         <!-- If targeting API 30 and need legacy external storage access for older devices/APIs,
@@ -42,7 +42,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.App.Starting">
+            android:theme="@style/Theme.Cinematique">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

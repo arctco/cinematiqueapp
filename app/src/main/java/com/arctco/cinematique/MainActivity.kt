@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.activity.OnBackPressedCallback
 import androidx.core.content.ContextCompat
 import android.webkit.WebChromeClient
@@ -59,7 +58,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        installSplashScreen()
+        // installSplashScreen()//
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
