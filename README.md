@@ -1,7 +1,7 @@
 [![cinematique preview](https://media.discordapp.net/attachments/647884127386992665/1392620077702189207/fgfg.png?ex=68703204&is=686ee084&hm=dddc108355eec9797b8d36549d1ce9f6e55d488e9830c38f7a72e9419b11e88a&=&format=webp&quality=lossless&width=1249&height=210)](https://cinematique.me)
 
 
-![Version](https://img.shields.io/badge/version-0.1.2-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.3-blue.svg)
 ![Privacy Respecting](https://img.shields.io/badge/privacy-100%25%20local-success)
 ![Status](https://img.shields.io/badge/status-beta-orange.svg)
 
@@ -13,6 +13,12 @@ cinematique is a local-first, privacy-focused app designed to help you track the
 > **Note:** This repository is for the **WebView Android app** only. It does **not** contain the source code for the cinematique website. But you can access it clicking [here](https://cinematique.me)!
 
 ---
+## A New Native Android App is Available To Download On Discord
+Please be aware that the web-wrapper version (this GitHub) and the new native build are now two different applications. They will receive separate and different updates going forward.
+The native version is a big step towards a faster, more integrated mobile experience, and I'd love your help testing it out.
+[Join our Discord](https://discord.gg/ywMAE7p7tE)
+
+I hope to make this version available on app stores soon, thanks for using cinematique and for sticking with the project as it grows.
 
 ## 🚀 About This Project
 
