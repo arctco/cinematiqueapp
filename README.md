@@ -13,10 +13,10 @@ cinematique is a local-first, privacy-focused app designed to help you track the
 > **Note:** This repository is for the **WebView Android app** only. It does **not** contain the source code for the cinematique website. But you can access it clicking [here](https://cinematique.me)!
 
 ---
-## A New Native Android App is Available To Download On Discord
+## A New Native Android App is Available To Download On Discord and a new repo!
 Please be aware that the web-wrapper version (this GitHub) and the new native build are now two different applications. They will receive separate and different updates going forward.
 The native version is a big step towards a faster, more integrated mobile experience, and I'd love your help testing it out.
-[Join our Discord](https://discord.gg/ywMAE7p7tE)
+[Join our Discord](https://discord.gg/ywMAE7p7tE) [cinematique native app](https://github.com/arctco/cinematiqueandroid)
 
 I hope to make this version available on app stores soon, thanks for using cinematique and for sticking with the project as it grows.
 
