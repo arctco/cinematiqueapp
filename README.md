@@ -3,7 +3,7 @@
 
 ![Version](https://img.shields.io/badge/version-0.1.3-blue.svg)
 ![Privacy Respecting](https://img.shields.io/badge/privacy-100%25%20local-success)
-![Status](https://img.shields.io/badge/status-beta-orange.svg)
+![Status](https://img.shields.io/badge/status-released-orange.svg)
 
 
 **A personal media tracker for film and TV lovers, by a film and TV lover.**
